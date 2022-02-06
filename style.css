@@ -1,0 +1,153 @@
+html {
+    /* background-color: hsl(210, 46%, 95%); */
+    background-color: antiquewhite;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.grid {
+    display: grid;
+    /* width: 1400px; */
+    width: 1240px;
+    height: 740px;
+    margin: 35px 85px;
+    gap: 30px;
+    grid-template-columns: 315px 315px 310px 300px;
+    grid-template-rows: 340px 400px;
+}
+
+/* GENERAL */ 
+.card {
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.bio-area {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+.person-avatar {
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* END */
+
+
+/* Card A */
+.card-a {
+    background-color: hsl(263, 55%, 52%);
+    height: 300px;
+    width: 600px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    color: white;
+}
+
+.card-a .testimonial-heading {
+    width: 580px;
+}
+
+.card-a .testimonial-body {
+    width: 580px;
+    font-weight: 300;
+}
+
+/* END */
+
+
+/* Card B */
+.card-b {
+    background-color: hsl(217, 19%, 35%);
+    width: 250px;
+    height: 300px;
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    color: white;
+}
+
+/* END */
+
+/* Card C */
+
+.card-c {
+    grid-row: 1 / 3;
+    grid-column: 4 / 6;
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+    width: 250px;
+    height: 675px;
+}
+
+
+.card-c .testimonial-heading {
+    width: 230px;
+}
+
+.card-c .testimonial-body {
+    width: 230px;
+    font-weight: 300;
+}
+
+/* END */
+
+/* Card D */
+
+.card-d {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+    width: 250px;
+    height: 300px;
+}
+
+
+.card-d .testimonial-heading {
+    width: 230px;
+}
+
+.card-d .testimonial-body {
+    width: 230px;
+    font-weight: 300;
+}
+
+/* END */
+
+/* Card E */
+
+.card-e {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    width: 595px;
+    height: 300px;
+}
+
+
+.card-e .testimonial-heading {
+    width: 580px;
+}
+
+.card-e .testimonial-body {
+    width: 580px;
+    font-weight: 300;
+}
+
+
+.card-e .person-avatar {
+    border: 3px solid hsl(263, 55%, 52%) ;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* END */
