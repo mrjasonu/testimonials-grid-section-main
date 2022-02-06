@@ -154,3 +154,39 @@ html {
 }
 
 /* END */
+
+
+@media only screen and (max-width: 500px) {
+
+    .grid {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 290px;
+        margin: 20px;
+    }    
+
+    .card .testimonial-heading {
+        width: 280px;
+    }
+
+    .card .testimonial-body {
+        width: 280px;
+        font-weight: 300;
+    }
+
+    .card-a {
+        height: 500px;
+    }
+    
+    .card-c {
+        height: 570px;
+    }
+
+    .card-e {
+        height: 470px;
+    }
+}
